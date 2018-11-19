@@ -1,0 +1,27 @@
+PODS:
+  - libjingle_peerconnection (11177.2.0)
+  - MQTTClient (0.15.2):
+    - MQTTClient/Core (= 0.15.2)
+  - MQTTClient/Core (0.15.2):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.2):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.2)
+
+DEPENDENCIES:
+  - libjingle_peerconnection
+  - MQTTClient (~> 0.15.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - libjingle_peerconnection
+    - MQTTClient
+
+SPEC CHECKSUMS:
+  libjingle_peerconnection: 3458f646ddd61f08a9f3a0c43fb01fff5c165eb8
+  MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
+
+PODFILE CHECKSUM: d6908ea2135a322bfe86eb932a14739d4863bfd4
+
+COCOAPODS: 1.5.0
